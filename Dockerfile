@@ -1,4 +1,4 @@
 FROM php7.4-apache
-WORKDIR varwwwhtml
+WORKDIR /var/www/html
 COPY app .
 EXPOSE 80
